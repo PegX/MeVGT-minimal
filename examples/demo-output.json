@@ -1,0 +1,28 @@
+{
+  "project": "MeVGT",
+  "scope": "synthetic graph aggregation, not a trained graph transformer",
+  "metric": "negative MSE (higher is better)",
+  "baseline": -0.0,
+  "circuits": [
+    {
+      "branch": 0,
+      "score_drop": 2.8333332538604736,
+      "detail": {
+        "clean_primary": -0.0,
+        "ablated_primary": -2.8333332538604736,
+        "type": "",
+        "head": 0
+      }
+    },
+    {
+      "branch": 1,
+      "score_drop": 0.5648148655891418,
+      "detail": {
+        "clean_primary": -0.0,
+        "ablated_primary": -0.5648148655891418,
+        "type": "",
+        "head": 1
+      }
+    }
+  ]
+}
